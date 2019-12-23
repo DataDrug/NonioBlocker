@@ -1,6 +1,14 @@
 # NonioBlocker - Versão Alfa.
 Para quem dispensa notícias "personalizadas".
 
+# NonioBlocker - Instruções:
+
+Extensão para usar no Google Chrome, para tal, basta apenas activar o modo de programador.
+Este projecto poderá ou não ter updates, dependendo do feedback dos utilizadores.
+
+# NonioBlocker - Manifesto:
+
+Fonte: https://www.facebook.com/ostruques/posts/1087234044807216
 
 Se não ouviu falar do Nónio, anda distraído.
 
@@ -28,5 +36,3 @@ A comunicação social precisa de um novo modelo: é hoje claro para todos. Este
 Nónio não. Tem de haver alternativa.
 
 PS: O Nónio é um projeto financiado em 900 mil euros pela Google Digital News Initiative.
-
-Fonte: https://www.facebook.com/ostruques/posts/1087234044807216
