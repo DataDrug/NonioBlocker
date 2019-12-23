@@ -1,5 +1,6 @@
-# NonioBlocker
+# NonioBlocker - Versão Alfa.
 Para quem dispensa notícias "personalizadas".
+
 
 Se não ouviu falar do Nónio, anda distraído.
 
