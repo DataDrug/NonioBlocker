@@ -1,0 +1,65 @@
+{
+  "name": "NonioGuard",
+  "version": "1.1",
+  "description": "Para quem dispensa notícias *personalizadas*.",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+"icons": { "16": "16.png",
+           "48": "48.png",
+          "128": "128.png" },
+  "manifest_version": 2,
+  	"browser_action": {
+		"browser_style": true,
+		"default_popup": "+.html",
+		"default_icon": {
+			"19": "img/noni.png"
+			}
+	},
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.tribunaexpresso.pt/*",
+        "*://*.tsf.pt/*",
+        "*://*.4men.pt/*",
+        "*://*.abola.pt/*",
+        "*://*.aquelamaquina.pt/*",
+        "*://*.classificadoscm.pt/*",
+        "*://*.cmjornal.pt/*",
+        "*://*.cm-tv.pt/*",
+        "*://*.dinheirovivo.pt/*",
+        "*://*.dn.pt/*",
+        "*://*.evasoes.pt/*",
+        "*://*.jornaldenegocios.pt/*",
+        "*://*.maxima.pt/*",
+        "*://*.menshealth.pt/*",
+        "*://*.expresso.pt/*",
+        "*://*.famashow.pt/*",
+        "*://*.flash.pt/*",
+        "*://*.iol.pt/*",
+        "*://*.jn.pt/*",
+        "*://*.motor24.pt/*",
+        "*://*.noticiasaominuto.com/*",
+        "*://*.noticiasmagazine.pt/*",
+        "*://*.sabado.pt/*",
+        "*://*.sapo.pt/*",
+        "*://*.sic.pt/*",
+        "*://*.publico.pt/*",
+        "*://*.ojogo.pt/*",
+        "*://*.record.pt/*",
+        "*://*.siccaras.pt/*",
+        "*://*.sickapa.pt/*",
+        "*://*.vidas.pt/*",
+        "*://*.sicmulher.pt/*",
+        "*://*.sicnoticias.pt/*",
+        "*://*.sicradical.pt/*",
+        "*://*.blitz.pt/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ]
+    }
+  ]
+}
